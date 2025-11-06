@@ -13,12 +13,6 @@ variable "detailed_monitoring" {
   default     = true
 }
 
-variable "tag_name" {
-  type        = string
-  description = "Instance name"
-  default     = null # will be set in locals
-}
-
 variable "instance_type" {
   type        = string
   description = "Instance type"
@@ -59,6 +53,12 @@ variable "subnet_id" {
   type        = string
   description = "Id of the subnet to create this instance in"
   default     = null
+}
+
+variable "tag_name" {
+  type        = string
+  description = "Instance name"
+  default     = null # will be set in locals
 }
 
 variable "user_data" {
