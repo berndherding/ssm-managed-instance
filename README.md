@@ -1,4 +1,4 @@
-# SSM-Managed Instance
+# SLT - An SSM-Managed Instance
 
 An EC2 instance with _AmazonSSMManagedInstanceCore_ policy included in
 its profile, allowing to connect to the instance securely via AWS SSM's
@@ -26,7 +26,7 @@ Deployment of this member should take < 2 minutes on GitHub resources.
 
 ## Architecture
 
-[Image]
+![Architecture](assets/architecture.drawio.svg)
 
 ## Explore this demo
 
